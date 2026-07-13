@@ -1,14 +1,13 @@
-.sacramento-regular {
 
-  font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 body{
     color:#090a0a;
     margin:0px;
     text-align: center;
-    font-family: Merriweather,serif;
+    font-family: Roboto-Slab;
+    background-color: #FAFAFA;
+    font-size: 16px;
+    font-style: bold;
+
 }
 .top-container{
     background-color: #EAF6f6;
@@ -51,9 +50,11 @@ h2{ color:#66bfbf;
     margin-top: 0px;
     font-weight: normal;
     padding-bottom: 10px;
+    font-family: Roboto-Slab;
 }
 h3{
-    color:#11999E
+    color:#11999E;
+    font-family: Roboto-Slab;
 }
 
 .bottom-cloud{
@@ -100,10 +101,13 @@ h3{
 }
 
 .skill-row{
+    color: rgb(41, 41, 41);
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
+    font-weight: bold;
+    font-size: 15px;
 }
 .middle-container{
     width:100px 0;
@@ -113,7 +117,7 @@ h3{
 
 hr {
   border: none;
-  border-top: 10px dotted #6f8383;
+  border-top: 10px dotted #dee6e6;
   height: 0;
   width:150px ;
   background-color: #ffffff;
@@ -126,6 +130,7 @@ hr {
 }
 .txt{
     font-size:40px;
+    font-family: Roboto-Slab;
 }
 
 .fix{
@@ -140,7 +145,7 @@ hr {
 }
 
 .last{
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 .btn
 {margin: 30px auto;
@@ -169,12 +174,12 @@ a{
 }
 
 .btn:hover{
-    background-color: aqua;
+    background-color: rgb(5, 134, 134);
     color:#090a0a;
-}
+    width:135px;}
 
 a:hover{
-    color: aqua;
+    color: black;
 }
 
 .copyright{
@@ -182,3 +187,34 @@ a:hover{
     margin-top:20px;
     padding: 20px 0px;
 }
+
+.hello{
+    margin:20px auto 20px auto ;
+}
+
+.Programmer{
+    font-size: 28px;
+}
+
+.let{
+    margin: 10px auto 100px auto;
+}
+
+.collab{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.name:hover{
+    font-size: 71px;
+    
+}
+
+.bottom-cloud:hover{
+    width:185px;
+    height:65px;
+}
+
+.top-cloud:hover{width:185px;
+    height:65px;}
