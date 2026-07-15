@@ -218,3 +218,14 @@ a:hover{
 
 .top-cloud:hover{width:185px;
     height:65px;}
+
+.css{ height: 150px;
+    width: 150px;
+    float: left;
+    margin-right:30px}
+
+.html{ height: 150px;
+    width: 150px;
+    float: left;
+    margin-right:30px}
+    
