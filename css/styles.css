@@ -219,19 +219,21 @@ a:hover{
 .top-cloud:hover{width:185px;
     height:65px;}
 
-.css{ height: 150px;
-    width: 150px;
-    float: left;
-    margin-right:30px}
+
 
 .html{ height: 150px;
     width: 150px;
     float: right;
     margin-right:30px}
+.css{ height: 150px;
+    width: 150px;
+    float: left;
+    margin-right:30px}
 .js{
     height: 150px;
     width: 150px;
-    float: left;
+    float: right;
     margin-right:30px ;
+    margin-top:30px;
     
 }
